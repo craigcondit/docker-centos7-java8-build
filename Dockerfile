@@ -5,7 +5,7 @@ RUN \
 	yum clean metadata && \
 	yum -y install epel-release && \
 	yum clean metadata && \
-	yum -y install make which tar rpm-build yum-utils python-argparse python-yaml java-1.8.0-openjdk-devel gcc gcc-c++ && \
+	yum -y install make which tar rpm-build yum-utils python-argparse python-yaml java-1.8.0-openjdk-devel gcc gcc-c++ createrepo && \
 	yum clean all
 
 ENV MAVEN_VERSION=3.3.9
