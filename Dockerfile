@@ -8,7 +8,7 @@ RUN \
 	yum -y install make which tar rpm-build yum-utils python-argparse python-yaml java-1.8.0-openjdk-devel gcc gcc-c++ createrepo jq && \
 	yum clean all
 
-ENV MAVEN_VERSION=3.3.9
+ENV MAVEN_VERSION=3.5.2
 ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
 ENV MAVEN_HOME=/opt/apache-maven-${MAVEN_VERSION}
 
