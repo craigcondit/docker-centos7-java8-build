@@ -1,4 +1,4 @@
-FROM centos:7.4.1708
+FROM centos:7.7.1908
 MAINTAINER ccondit@randomcoder.com
 
 RUN \	
@@ -9,7 +9,7 @@ RUN \
 	yum -y install make which tar rpm-build yum-utils python-argparse python-yaml java-1.8.0-openjdk-devel gcc gcc-c++ createrepo jq glibc-static && \
 	yum clean all
 
-ENV MAVEN_VERSION=3.5.3
+ENV MAVEN_VERSION=3.6.3
 ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
 ENV MAVEN_HOME=/opt/apache-maven-${MAVEN_VERSION}
 
