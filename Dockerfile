@@ -1,4 +1,4 @@
-FROM centos:7.7.1908
+FROM centos:7.6.1810
 MAINTAINER ccondit@randomcoder.com
 
 RUN \	
