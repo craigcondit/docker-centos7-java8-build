@@ -3,7 +3,6 @@ MAINTAINER ccondit@randomcoder.com
 
 RUN \	
 	yum clean metadata && \
-	yum -y upgrade && \
 	yum -y install epel-release && \
 	yum clean metadata && \
 	yum -y install make which tar rpm-build yum-utils python-argparse python-yaml java-1.8.0-openjdk-devel gcc gcc-c++ createrepo jq glibc-static && \
